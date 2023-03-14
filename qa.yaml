@@ -5,4 +5,5 @@ copy . /app
 entrypoint ["python"]
 cmd ["app.py"]
 
+add . . # by bank 
 
