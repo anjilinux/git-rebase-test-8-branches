@@ -1,0 +1,9 @@
+FROM python:3.10
+run apt update -y
+workdir /app
+copy . /app
+entrypoint ["python"]
+cmd ["app.py"]
+
+add . . # by bank 
+
